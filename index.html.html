@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amna Imran | Surgical Tech & Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #F9F9F7; scroll-behavior: smooth; }
+        .mask-merge-left { -webkit-mask-image: linear-gradient(to right, black 40%, transparent 90%); }
+        .mask-merge-right { -webkit-mask-image: linear-gradient(to left, black 40%, transparent 90%); }
+        .glass-card { background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.3); }
+        .project-card:hover img { transform: scale(1.05); }
+    </style>
+</head>
+<body class="text-slate-800 selection:bg-emerald-200">
+
+    <nav class="fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center glass-card border-b border-slate-200/50">
+        <span class="font-extrabold tracking-tighter text-xl">AMNA <span class="text-emerald-600">IMRAN</span></span>
+        <div class="hidden md:flex gap-8 text-xs font-bold uppercase tracking-widest text-slate-500">
+            <a href="#about" class="hover:text-emerald-600 transition-colors">About</a>
+            <a href="#education" class="hover:text-emerald-600 transition-colors">Education</a>
+            <a href="#projects" class="hover:text-emerald-600 transition-colors">Projects</a>
+            <a href="#contact" class="hover:text-emerald-600 transition-colors">Contact</a>
+        </div>
+    </nav>
+
+    <section class="relative h-screen w-full flex items-center justify-center overflow-hidden border-b border-emerald-100">
+        <div class="absolute inset-0 flex overflow-hidden">
+            <div class="relative w-1/2 h-full mask-merge-left opacity-30 grayscale-[30%]">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdgHe4A80bCYumYd_0S18uaVA1nKYkw4rNtQ&s" alt="Operation Theatre" width="600" class="h-full w-full object-cover" id="hero-med">
+            </div>
+            <div class="relative w-1/2 h-full mask-merge-right opacity-30 grayscale-[30%]">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200" class="h-full w-full object-cover" id="hero-tech">
+            </div>
+        </div>
+
+        <div class="relative z-10 text-center max-w-4xl px-6">
+            <div class="flex items-center justify-center gap-3 mb-6">
+                <span class="text-slate-400 text-[10px] font-bold tracking-[0.3em] uppercase">Amna Imran Portfolio</span>
+                <span class="w-1 h-1 bg-emerald-400 rounded-full"></span>
+                <span class="px-3 py-1 bg-emerald-100 text-emerald-700 text-[10px] font-bold tracking-[0.2em] uppercase rounded-full">SIUT Surgical Tech</span>
+            </div>
+            
+            <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter text-slate-900 leading-[0.9]">
+                PRECISION<br><span class="text-emerald-600 italic">IN EVERY</span> LAYER
+            </h1>
+            
+            <p class="mt-8 text-lg text-slate-600 max-w-xl mx-auto font-light">
+                Bridging the sterile environment of <span class="font-semibold text-slate-800">Robotic Surgery</span> with the structural logic of <span class="font-semibold text-slate-800">Modern Web Architecture</span>.
+            </p>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="glass-card rounded-3xl overflow-hidden flex flex-col md:flex-row items-center shadow-xl shadow-emerald-900/5">
+                <div class="md:w-1/2 h-[400px] md:h-[600px] overflow-hidden">
+                    <img src="profile.png" alt="Female in scrubs" width="400" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                </div>
+                <div class="md:w-1/2 p-12 lg:p-16">
+                    <h2 class="text-xs font-black tracking-[0.3em] text-emerald-600 uppercase mb-4">The Persona</h2>
+                    <h3 class="text-4xl font-bold text-slate-900 mb-6">Amna Imran.</h3>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        In the Operating Theater at SIUT, precision is not a choice—it's a requirement. I specialize in robotic surgery instrumentation and aseptic mastery, ensuring clinical excellence in every procedure.
+                    </p>
+                    <p class="text-slate-600 leading-relaxed mb-8">
+                        I apply that same surgical discipline to the web, building interfaces that are as clean and optimized as a sterile field.
+                    </p>
+                    
+                    <div class="pt-6 border-t border-slate-200">
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Professional Documents</p>
+                        <a href="resume.pdf" download="resume.pdf" class="inline-flex items-center gap-4 px-8 py-4 bg-slate-900 text-white rounded-2xl font-bold hover:bg-emerald-600 transition-all hover:-translate-y-1 shadow-lg shadow-slate-200 group">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-emerald-400 group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            </svg>
+                            Download Full Resume (PDF)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-4">
+                <h2 class="text-xs font-black tracking-[0.3em] text-emerald-600 uppercase mb-4">Background</h2>
+                <h3 class="text-4xl font-bold text-slate-900">Education & Training.</h3>
+            </div>
+            <div class="lg:col-span-8 space-y-8">
+                <div class="p-8 border-l-4 border-emerald-500 bg-white shadow-sm rounded-r-2xl">
+                    <span class="text-sm font-bold text-emerald-600">Active</span>
+                    <h4 class="text-xl font-bold text-slate-800">BS in Surgical Technology</h4>
+                    <p class="text-slate-600">Sindh Institute of Urology and Transplantation (SIUT)</p>
+                    <p class="mt-4 text-sm text-slate-500 leading-relaxed">Specialized training in perioperative care, robotic instrumentation, and advanced surgical assisting.</p>
+                </div>
+                <div class="p-8 border-l-4 border-slate-300 bg-white shadow-sm rounded-r-2xl">
+                    <span class="text-sm font-bold text-slate-400">Technical</span>
+                    <h4 class="text-xl font-bold text-slate-800">Frontend Web Development</h4>
+                    <p class="text-slate-600">Modern stack proficiency: HTML5, CSS3 (Tailwind), and JavaScript Logic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-emerald-950 py-24 px-6 text-white relative">
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+                <h3 class="text-4xl font-bold font-mono">/Featured_Works</h3>
+                <p class="text-emerald-300 font-mono text-xs italic uppercase tracking-widest underline decoration-emerald-500/50 underline-offset-8">Curated Artifacts</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group project-card">
+                    <div class="relative h-64 mb-6 overflow-hidden rounded-xl bg-emerald-900/50 border border-emerald-800">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" alt="Portfolio">
+                    </div>
+                    <span class="text-emerald-500 font-mono text-xs mb-2 block tracking-tighter">01 / WEB ARCHITECTURE</span>
+                    <h4 class="text-xl font-bold mb-3">Portfolio V1.0</h4>
+                    <p class="text-emerald-100/60 text-sm leading-relaxed">A study in high-contrast layouts and responsive design principles for modern web environments.</p>
+                </div>
+
+                <div class="group project-card">
+                    <div class="relative h-64 mb-6 overflow-hidden rounded-xl bg-emerald-900/50 border border-emerald-800">
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" alt="Med Dashboard">
+                    </div>
+                    <span class="text-emerald-500 font-mono text-xs mb-2 block tracking-tighter">02 / HEALTHCARE UI</span>
+                    <h4 class="text-xl font-bold mb-3">SterileFlow Dashboard</h4>
+                    <p class="text-emerald-100/60 text-sm leading-relaxed">Interface design for hospital inventory systems, focused on tracking instrument sterilization data.</p>
+                </div>
+
+                <div class="group project-card">
+                    <div class="relative h-64 mb-6 overflow-hidden rounded-xl bg-emerald-900/50 border border-emerald-800">
+                        <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" alt="Robotics">
+                    </div>
+                    <span class="text-emerald-500 font-mono text-xs mb-2 block tracking-tighter">03 / INTERACTIVE SIM</span>
+                    <h4 class="text-xl font-bold mb-3">RoboScrub Logic</h4>
+                    <p class="text-emerald-100/60 text-sm leading-relaxed">JS-driven interactive simulator for robotic arm setup and clinical draping protocols.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-900 text-white py-20 px-6">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
+            <div>
+                <h3 class="text-4xl font-extrabold mb-4">Let's Connect.</h3>
+                <p class="text-slate-400 max-w-sm mb-8">Ready to bring surgical precision to your next digital or clinical project.</p>
+                <div class="flex gap-4">
+                    <a href="mailto:amna.imran@email.com" class="px-6 py-3 bg-emerald-600 rounded-lg text-sm font-bold hover:bg-emerald-500 transition-colors">Email Me</a>
+                    <a href="#" class="px-6 py-3 border border-slate-700 rounded-lg text-sm font-bold hover:bg-slate-800 transition-colors">LinkedIn</a>
+                </div>
+            </div>
+            
+            <div class="text-left md:text-right">
+                <p class="text-xs uppercase tracking-[0.3em] text-slate-500 mb-2">Location</p>
+                <p class="text-lg font-medium mb-6 italic">Karachi, Pakistan</p>
+                <p class="text-xs uppercase tracking-[0.3em] text-slate-500 mb-2">Social Presence</p>
+                <div class="flex md:justify-end gap-6 text-sm font-bold">
+                    <a href="#" class="hover:text-emerald-400 transition-colors">GitHub</a>
+                    <a href="#" class="hover:text-emerald-400 transition-colors">Dribbble</a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto border-t border-slate-800 mt-16 pt-8 flex flex-col md:flex-row justify-between text-[10px] text-slate-500 uppercase tracking-widest font-bold">
+            <p>&copy; 2026 AMNA IMRAN</p>
+            <p>Surgical Technologist | Frontend Developer</p>
+        </div>
+    </footer>
+
+    <script>
+        // Parallax Effect
+        window.addEventListener('mousemove', (pos) => {
+            const x = (pos.clientX / window.innerWidth - 0.5) * 60;
+            const y = (pos.clientY / window.innerHeight - 0.5) * 60;
+            const med = document.getElementById('hero-med');
+            const tech = document.getElementById('hero-tech');
+            if(med) med.style.transform = `scale(1.1) translate(${x}px, ${y}px)`;
+            if(tech) tech.style.transform = `scale(1.1) translate(${-x}px, ${-y}px)`;
+        });
+
+        // Simple Reveal on Scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-8');
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
